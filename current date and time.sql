@@ -1,0 +1,1 @@
+SELECT GETDATE () 'Current Date and Time'

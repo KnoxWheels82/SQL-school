@@ -1,0 +1,3 @@
+ALTER TABLE ShippingInfo
+ADD CONSTRAINT df_State
+DEFAULT 'TN' FOR State

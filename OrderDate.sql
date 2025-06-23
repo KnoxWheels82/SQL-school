@@ -1,0 +1,1 @@
+SELECT OrderDate FROM CustomerOrder

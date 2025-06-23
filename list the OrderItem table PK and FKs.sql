@@ -1,0 +1,6 @@
+/**list the OrderItem table PK and FKs **/
+SELECT DISTINCT
+ Constraint_Name, Table_Schema, Table_Name
+FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+INFORMATION_SCHEMA.KEY_COLUMN_USAGE.TABLE_NAME='OrderItem'

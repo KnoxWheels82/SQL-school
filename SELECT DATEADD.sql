@@ -1,0 +1,1 @@
+SELECT DATEADD(day, 366, '2019/10/13')
